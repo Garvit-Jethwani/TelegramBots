@@ -39,4 +39,17 @@ public class BaseAbilityBot_onUpdateReceived_fb2cc743d7_Test {
             verify(baseAbilityBot, times(1)).onUpdateReceived(update);
         }
     }
+
+    @Test
+    public void testOnUpdateReceived_processingTime() {
+        doAnswer(invocation -> {
+            long millisStarted = System.currentTimeMillis();
+            // Simulate processing time
+            Thread.sleep(100);
+            long processingTime = System.currentTimeMillis() - millisStarted;
+            return processingTime;
+        }).when(baseAbilityBot).onUpdateReceived(any(Update.class));
+        baseAbilityBot.onUpdateReceived(update);
+        verify(baseAbilityBot, times(1)).onUpdateReceived(update);
+    }
 }

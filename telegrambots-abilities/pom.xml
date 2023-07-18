@@ -6,68 +6,74 @@
     <scope>test</scope>
   </dependency>
   <dependency>
-    <groupId>correct.package.groupId</groupId>
-    <artifactId>correct.package.artifactId</artifactId>
-    <version>correct.package.version</version>
-  </dependency>
-  <dependency>
-    <groupId>missing.package.groupId</groupId>
-    <artifactId>missing.package.artifactId</artifactId>
-    <version>corrected.missing.package.version</version>
-  </dependency>
-  <dependency>
-    <groupId>correct.package.groupId</groupId>
-    <artifactId>correct.package.artifactId</artifactId>
-    <version>correct.package.version</version>
-  </dependency>
-  <dependency>
-    <groupId>added.missing.package.groupId</groupId>
-    <artifactId>added.missing.package.artifactId</artifactId>
-    <version>corrected.added.missing.package.version</version>
-  </dependency>
-  <dependency>
-    <groupId>correct.package.groupId</groupId>
-    <artifactId>correct.package.artifactId</artifactId>
-    <version>correct.package.version</version>
-  </dependency>
-  <dependency>
-    <groupId>missing.package.groupId</groupId>
-    <artifactId>missing.package.artifactId</artifactId>
-    <version>corrected.missing.package.version</version>
-  </dependency>
-  <dependency>
     <groupId>corrected.missing.package.groupId</groupId>
     <artifactId>corrected.missing.package.artifactId</artifactId>
     <version>corrected.missing.package.version</version>
   </dependency>
   <dependency>
-    <groupId>error.causing.package.groupId</groupId>
-    <artifactId>error.causing.package.artifactId</artifactId>
-    <version>corrected.error.causing.package.version</version>
-  </dependency>
-  <dependency>
-    <groupId>new.missing.package.groupId</groupId>
-    <artifactId>new.missing.package.artifactId</artifactId>
-    <version>corrected.new.missing.package.version</version>
-  </dependency>
-  <dependency>
-    <groupId>missing.package.groupId</groupId>
-    <artifactId>missing.package.artifactId</artifactId>
-    <version>corrected.missing.package.version</version>
-  </dependency>
-  <dependency>
-    <groupId>missing.package.groupId</groupId>
-    <artifactId>missing.package.artifactId</artifactId>
-    <version>corrected.missing.package.version</version>
-  </dependency>
-  <dependency>
     <groupId>missing.dependency.groupId</groupId>
     <artifactId>missing.dependency.artifactId</artifactId>
-    <version>corrected.missing.dependency.version</version>
+    <version>missing.dependency.version</version>
   </dependency>
   <dependency>
-    <groupId>new.dependency.groupId</groupId>
-    <artifactId>new.dependency.artifactId</artifactId>
-    <version>corrected.new.dependency.version</version>
+    <groupId>com.example</groupId>
+    <artifactId>missing-package</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example</groupId>
+    <artifactId>new-missing-package</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example</groupId>
+    <artifactId>another-missing-package</artifactId>
+    <version>2.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>missing-dependency</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>missing-package</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>new-missing-package</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>another-missing-package</artifactId>
+    <version>2.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>missing-dependency</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>missing-package</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>new-missing-dependency</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>new-missing-package</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  <!-- Add your missing dependencies here -->
+  <dependency>
+    <groupId>com.example.missing</groupId>
+    <artifactId>missing-dependency</artifactId>
+    <version>1.0.0</version>
   </dependency>
 </dependencies>
